@@ -317,7 +317,14 @@ nav .logo{
 
 
 
-
+   #loader{
+    background: black url(../images/giff/loader.gif) no-repeat center center;
+    background-size: 60%;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+  }
+  
 
 
 

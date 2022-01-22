@@ -40,6 +40,18 @@
 
 <body>
 
+<!-- -------loder------ -->
+<div id="loader"></div>
+
+
+<!-- --------Heder------- -->
+
+
+
+
+
+
+
   <!-- heder section start -->
 
   <section class="heder">
@@ -467,7 +479,7 @@
   <!-- road sign home page start -->
 
   <section class="kamaty slider">
-    <div class="container kammatty hedding text-center pb-5">
+    <div class="container kammatty hedding text-center pt-2 pb-5">
       <h3 class="text-uppercase kammatty-hedding ">Guide to Road Signs</h3>
     </div>
     <ul id="autoWidth6" class="cs-hidden">
@@ -683,7 +695,14 @@
   <!-- read mor function end -->
 
 
+  <script>
 
+    var loader = document.getElementById("loader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none"
+    })
+
+  </script>
 
   <!-- custom scrit  -->
 

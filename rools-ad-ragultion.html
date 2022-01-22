@@ -33,6 +33,18 @@
     <title>KDCB SAUDI ARABIA</title>
 </head>
 <body>
+<!-- -------loder------ -->
+<div id="loader"></div>
+
+
+<!-- --------Heder------- -->
+
+
+
+
+
+
+
   <section class="heder">
     <nav class="fixed-top  ">
       <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
@@ -220,7 +232,14 @@
 
 
 
+  <script>
 
+    var loader = document.getElementById("loader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none"
+    })
+
+  </script>
 
   <script>
     var navLink = document.getElementById("navLinks");

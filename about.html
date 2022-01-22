@@ -40,6 +40,13 @@
 
 <body>
 
+    <!-- -------loder------ -->
+<div id="loader"></div>
+
+
+<!-- --------Heder------- -->
+
+
     <section class="heder">
         <nav class="fixed-top  ">
             <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
@@ -327,6 +334,16 @@
     <script type="text/javascript" src="js/script.js"></script>
 
     <!-- custom scrit  -->
+
+    <script>
+
+        var loader = document.getElementById("loader");
+        window.addEventListener("load", function () {
+          loader.style.display = "none"
+        })
+    
+      </script>
+
 
 
     <script>
