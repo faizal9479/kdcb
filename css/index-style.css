@@ -31,7 +31,7 @@ nav .fas{
     display: none;
 }
 nav .logo{
-    width: 180px;
+    width: 140px;
 }
 .fa-bars{
     width: 20px;
@@ -58,7 +58,7 @@ nav .logo{
 /* nav section end  */
 
 .carousel{
-    margin-top: 5.3%;
+    margin-top: 4.8%;
 }
 
 /* about section start  */
@@ -366,7 +366,7 @@ nav .logo{
     .nav-links{
         position: absolute;
         background: #0b5f2e;
-        height: 90vh;
+        height: 100vh;
         width: 200px;
         top: 0;
         right: -200px;
