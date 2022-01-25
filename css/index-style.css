@@ -99,6 +99,22 @@ nav .logo{
 
 
 
+
+.sajeev-bai{
+    align-items: center;
+    text-align: center;
+}
+.size-text{
+    font-size: 22px;
+    font-family: 'Gayathri', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
 /* KAMMATY SLIDER START  */
 
 .kammatty-hedding{
@@ -290,11 +306,23 @@ nav .logo{
 
 
 
+.contact-sectin{
+    background-color: #474747;
+    padding: 50px;
+}
 
-
-
-
-
+.btn-green{
+    background-color: #085f2d;
+    color: white;
+    font-weight: bold;
+}
+.colar-white{
+    color: white;
+}
+.align-item{
+    align-items: center;
+    text-align: center;
+}
 
 
 
@@ -403,6 +431,9 @@ nav .logo{
  /* about sectin  */
 
 
+ .sajeev-bai img{
+    width: 400px;
+}
 
 
 
