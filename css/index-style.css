@@ -62,9 +62,7 @@ nav .logo{
 }
 
 /* about section start  */
-.about-page{
-    margin-top: 5.3%; 
-}
+
 
 .about{
     padding-top: 50px;
@@ -161,11 +159,15 @@ nav .logo{
 }
 /* KAMMATY SLIDER END  */
 
-
+.t{
+    align-items: center;
+    text-align: center;
+}
 
 /* rools and ragulations section stART  */
-.rools-page-rools-condrols{
-    margin-top: 5.3%;
+
+#about-page-malayalam{
+    margin-top: 2%;
 }
 .rools-cantainer-row{
     align-items: center;
@@ -176,8 +178,8 @@ nav .logo{
     background-color: #e0ffec;
     padding: 20px;
     margin: 10px;
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     border-radius: 10px;
 }
 .malayalam-text{
@@ -254,7 +256,9 @@ nav .logo{
 
 
 
-
+.chsrity-galla{
+    margin-top: 5%;
+}
 
 .chsrity-gallary{
     align-items: center;
@@ -382,6 +386,81 @@ nav .logo{
 
 
 
+  @media(max-width:1920px){
+    .photo-gallery-shado img{
+        width: 350px;
+    }
+    #about-page-malayalam{
+        margin-bottom: 0;
+    }
+    
+}
+
+@media(max-width:1120px){
+    .photo-gallery-shado img{
+        width: 300px;
+    }
+    
+}
+@media(max-width:912px){
+    .social-link-container img{
+        width: 230px;
+    }
+    .sajeev-bai img{
+        width: 700px;
+    }
+}
+
+  @media(max-width:877px){
+    nav .logo{
+        width: 100px;
+    }
+    .nav-links ul li a{
+       font-size: 12px;
+    }
+
+    .chsrity-galla{
+        margin-top: 10%;
+    }
+
+    .photo-gallery-shado img{
+        width: 350px;
+    }
+  }
+  @media(max-width:830px){
+    nav .logo{
+        width: 100px;
+    }
+    .nav-links ul li a{
+       font-size: 10px;
+    }
+    .sajeev-bai img{
+        width: 700px;
+    }
+    .social-link-container img{
+        width: 200px;
+    }
+  }
+  @media(max-width:745px){
+    nav .logo{
+        width: 100px;
+    }
+    .nav-links ul li a{
+       font-size: 9px;
+    }
+  }
+
+  @media(max-width:705px){
+    nav .logo{
+        width: 100px;
+    }
+    .nav-links ul li a{
+       font-size: 8px;
+    }
+  }
+
+
+
 @media(max-width:700px){
 
 /* nav sectin  start */    
@@ -417,13 +496,14 @@ nav .logo{
     }
     .nav-links ul li a{
         color: white;
+        font-size: 12px;
     }
 /* nav sectin  end */
 
 
 /* about sectin  */
  .about{
-        padding-top: 20px; 
+        padding-top: 10%; 
     }
     .aboutParaSpan{
         display: none;
@@ -474,4 +554,31 @@ nav .logo{
     font-size: 16px;   
 }
 
+}
+
+
+
+
+
+@media(max-width:655px){
+    .about{
+        padding-top: 15%; 
+    }
+}
+
+@media(max-width:400px){
+    .sajeev-bai img{
+        width: 360px;
+    }
+}
+@media(max-width:400px){
+    .photo-gallery-shado img{
+        width: 300px;
+    }
+}
+
+@media(max-width:300px){
+    .photo-gallery-shado img{
+        width: 250px;
+    }
 }
