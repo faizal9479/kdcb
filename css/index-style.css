@@ -307,6 +307,9 @@ nav .logo{
 /* lovly section end  */
 
 
+.table-container{
+    padding-top: 5%;
+}
 
 
 
@@ -422,6 +425,9 @@ nav .logo{
     .nav-links ul li{
           padding: 4px 6px;
     }
+    .table-container{
+        padding-top: 10%;
+    }
     
 }
 
@@ -437,6 +443,11 @@ nav .logo{
     .sajeev-bai img{
         width: 700px;
     }
+    
+    .nav-links ul li a{
+        font-size: 10px;
+     }
+    
 }
 
 /* surfex tab screnn  */
@@ -459,6 +470,13 @@ nav .logo{
     .photo-gallery-shado img{
         width: 90%;
     }
+
+    .table-container{
+        padding-top: 10%;
+    }
+    
+
+
   }
   @media(max-width:830px){
     nav .logo{
@@ -480,6 +498,7 @@ nav .logo{
     .nav-links ul li{
         padding: 4px 4px;
   }
+
   }
   @media(max-width:745px){
     nav .logo{
@@ -490,6 +509,9 @@ nav .logo{
     }
     .social-link-container img{
         width: 90%;
+    }
+    .table-container{
+        padding-top: 15%;
     }
     
   }
@@ -615,6 +637,9 @@ nav .logo{
 @media(max-width:400px){
     .photo-gallery-shado img{
         width: 90%;
+    }
+    .table-container{
+        padding-top: 20%;
     }
 }
 
