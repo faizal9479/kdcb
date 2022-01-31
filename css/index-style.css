@@ -314,7 +314,9 @@ nav .logo{
 
 .contact-sectin{
     background-color: #474747;
-    padding: 50px;
+}
+.sub-btn{
+    padding-bottom: 20px;
 }
 
 .btn-green{
