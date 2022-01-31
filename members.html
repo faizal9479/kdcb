@@ -36,6 +36,12 @@
   <script type="text/javascript" src="js/lightslider.js"></script>
 
 
+
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+
   <title>KDCB SAUDI AREBIA</title>
 </head>
 
@@ -43,7 +49,7 @@
 
   <!-- heder section start -->
 
-  <section class="heder">
+  <!-- <section class="heder">
     <nav class="fixed-top  ">
       <a href="index.html"><img src="images/logo.png" class="logo" alt=""></a>
       <div class="nav-links" id="navLinks">
@@ -60,15 +66,14 @@
       </div>
       <i id class="fas fa-bars" onclick="showMenu()"></i>
     </nav>
-  </section>
+  </section> -->
 
   <!-- heder section start -->
 
 
 
-
-
-  <table class="table table-bordered mt-5">
+<div class="container">
+  <table id="name_table" class="table table-bordered mt-5">
     <thead>
       <tr class="tab tab-heding">
         <th class="text-uppercase" scope="col">No</th>
@@ -234,6 +239,9 @@
 
     </tbody>
   </table>
+</div>
+
+  
 
 
 
@@ -270,15 +278,19 @@
 
 
 
+<script>
+$( function () {
+    $('#name_table').DataTable();
+} );
+
+</script>
+  
 
 
 
+  <!-- <script src="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css"></script>
 
-
-
-
-
-
+  <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script> -->
 
 
 
