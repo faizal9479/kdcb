@@ -311,7 +311,17 @@ nav .logo{
 
 
 
+.heding{
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.heding h3{
 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
 .contact-sectin{
     background-color: #474747;
 }
