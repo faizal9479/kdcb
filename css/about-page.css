@@ -12,3 +12,11 @@
     background-color: rgb(255, 209, 209);
     border-radius: 10px;
 }
+.kmmity-img{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.kmmity-img img{
+    width: 90%;
+}
