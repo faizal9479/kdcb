@@ -41,6 +41,46 @@
 <body>
 
 
+
+
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "101755685753726");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v12.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+
+
+
+
+
+
   <!-- -------loder------ -->
   <div id="loader"></div>
 
@@ -111,7 +151,7 @@
           <img src="images/charity photos/12.jpg" alt="img 07">
           <div class="row charity-discription pt-4">
             <p class="malayalam-text ">
-              KDCB സൗദി ചങ്ക് അക്ക്ബറിന്റെ വീട് താമസത്തിനു KDCB സൗദി ചങ്ക്കളുടെ സ്നേഹ സമ്മാനം KDCB സൗദിയുടെ ചങ്കിടിപ്പ് 
+              KDCB സൗദി ചങ്ക് അക്ക്ബറിന്റെ വീട് താമസത്തിനു KDCB സൗദി ചങ്ക്കളുടെ സ്നേഹ സമ്മാനം KDCB സൗദിയുടെ ചങ്കിടിപ്പ്
               ബിജു കല്ലുവാതുക്കൽ നൽകുന്നു...
             </p>
           </div>
@@ -565,23 +605,23 @@
         <div class="col-sm-12 col-md-6 col-lg-4 img-contain pb-4 photo-gallery-shado">
           <img src="images/new updte/1.jpg" alt="img 01">
         </div>
-  
+
         <div class="col-sm-12 col-md-6 col-lg-4 img-contain pb-4 photo-gallery-shado">
           <img src="images/new updte/2.jpg" alt="img 01">
         </div>
-  
+
         <div class="col-sm-12 col-md-6 col-lg-4 img-contain pb-4 photo-gallery-shado">
           <img src="images/new updte/3.jpg" alt="img 01">
         </div>
-  
+
         <div class="col-sm-12 col-md-6 col-lg-4 img-contain pb-4 photo-gallery-shado">
           <img src="images/new updte/4.jpg" alt="img 01">
         </div>
-  
+
         <div class="col-sm-12 col-md-6 col-lg-4 img-contain pb-4 photo-gallery-shado">
           <img src="images/new updte/5.jpg" alt="img 01">
         </div>
-        
+
 
       </div>
 
