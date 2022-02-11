@@ -345,6 +345,10 @@ nav .logo{
     text-align: center;
 }
 
+.momentom-photo-container{
+    background-color: rgb(255, 209, 209);
+    border-radius: 10px;
+}
 
 
 
@@ -578,6 +582,9 @@ nav .logo{
     width: 400px;
 }
 
+.photo-gallery-shado img{
+    width: 90%;
+}
 
 
 /* curosal section start  */
@@ -610,9 +617,9 @@ nav .logo{
 
 
 
-.img-contain img{
+/* .img-contain img{
     width: 350px;
-}
+} */
 .charity-discription p{
     font-size: 16px;   
 }
@@ -627,19 +634,18 @@ nav .logo{
     .about{
         padding-top: 15%; 
     }
+    
 }
 
-@media(max-width:400px){
-    .sajeev-bai img{
-        width: 360px;
-    }
-}
 @media(max-width:400px){
     .photo-gallery-shado img{
         width: 90%;
     }
     .table-container{
         padding-top: 20%;
+    }
+    .sajeev-bai img{
+        width: 360px;
     }
 }
 
