@@ -58,15 +58,14 @@ nav .logo{
 /* nav section end  */
 
 .carousel{
-    margin-top: 4.8%;
+    margin-top: 4%;
 }
-
 /* about section start  */
 
 
 .about{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 10px; */
+    padding-bottom: 20px;
     align-items: center;
     text-align: center;
     
@@ -165,10 +164,10 @@ nav .logo{
 }
 
 /* rools and ragulations section stART  */
-
+/* 
 #about-page-malayalam{
-    margin-top: 2%;
-}
+    margin-top:25%;
+} */
 .rools-cantainer-row{
     align-items: center;
     justify-content: center;
@@ -570,7 +569,7 @@ nav .logo{
 
 /* about sectin  */
  .about{
-        padding-top: 10%; 
+        /* padding-top: 2%;  */
     }
     .aboutParaSpan{
         display: none;
@@ -632,7 +631,7 @@ nav .logo{
 
 @media(max-width:655px){
     .about{
-        padding-top: 15%; 
+        /* padding-top: 15%;  */
     }
     
 }
