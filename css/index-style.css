@@ -399,6 +399,7 @@ nav .logo{
     height: 100vh;
     position: relative;
     z-index: 100;
+    display: none;
   }
   
 
@@ -413,7 +414,9 @@ nav .logo{
     #about-page-malayalam{
         margin-bottom: 0;
     }
-    
+    #loader{
+       display: none;
+      }
 }
 
 /* tv screnn  */
