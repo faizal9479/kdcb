@@ -415,7 +415,7 @@ nav .logo{
         margin-bottom: 0;
     }
     #loader{
-       display: none;
+       display: block;
       }
 }
 
