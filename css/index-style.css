@@ -388,10 +388,10 @@ nav .logo{
    /* -----foooter end---- */
 
 
-
-
-
-
+   .wrng-page-pading-top {
+       margin-top: 80px;
+       margin-bottom: 80px;
+   }
 
    #loader{
     background: black url(../images/giff/loader.gif) no-repeat center center;
