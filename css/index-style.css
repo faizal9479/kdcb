@@ -395,11 +395,10 @@ nav .logo{
 
    #loader{
     background: black url(../images/giff/loader.gif) no-repeat center center;
-    background-size: 60%;
+    background-size: 20%;
     height: 100vh;
     position: relative;
     z-index: 100;
-    display: none;
   }
   
 
@@ -415,7 +414,7 @@ nav .logo{
         margin-bottom: 0;
     }
     #loader{
-       display: block;
+        background-size: 50%;
       }
 }
 
