@@ -31,7 +31,7 @@ nav .fas{
     display: none;
 }
 nav .logo{
-    width: 140px;
+    width: 250px;
 }
 .fa-bars{
     width: 20px;
@@ -367,7 +367,7 @@ nav .logo{
   }
   /* -----foooter logo and para ---- */
   .footer-logo{
-    width:150px;
+    width:200px;
   }
   /* -----foooter logo and para end---- */
 
@@ -459,7 +459,7 @@ nav .logo{
 
   @media(max-width:877px){
     nav .logo{
-        width: 100px;
+        width: 150px;
     }
     .nav-links ul li a{
        font-size: 12px;
@@ -482,7 +482,7 @@ nav .logo{
   }
   @media(max-width:830px){
     nav .logo{
-        width: 100px;
+        width: 150px;
     }
     .nav-links ul li a{
        font-size: 10px;
@@ -504,7 +504,7 @@ nav .logo{
   }
   @media(max-width:745px){
     nav .logo{
-        width: 100px;
+        width: 150px;
     }
     .nav-links ul li a{
        font-size: 14px;
@@ -520,7 +520,7 @@ nav .logo{
 
   @media(max-width:705px){
     nav .logo{
-        width: 100px;
+        width: 150px;
     }
   }
 
@@ -530,7 +530,7 @@ nav .logo{
 
 /* nav sectin  start */    
     nav .logo{
-        width: 130px;
+        width: 150px;
     }
     .nav-links ul li {
         display: block;
