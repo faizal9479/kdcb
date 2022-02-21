@@ -70,13 +70,19 @@ nav .logo{
     text-align: center;
     
 }
+.pad{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    text-align: justify;
+}
 .about h1{
     font-size: 30px;
     font-weight: 900;
     text-transform: uppercase;  
 }
 .para{
-    padding: .5% 10%; 
+    padding: .5% 0%; 
     text-align: justify;
 }
 .para h4{
