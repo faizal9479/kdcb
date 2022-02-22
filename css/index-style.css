@@ -56,10 +56,10 @@ nav .logo{
 }
 
 /* nav section end  */
-/* 
+
 .carousel{
     margin-top: 4%;
-} */
+}
 /* about section start  */
 
 
@@ -454,6 +454,9 @@ nav .logo{
     
     .nav-links ul li a{
         font-size: 10px;
+     }
+     .pt-5{
+         padding-top: 0;
      }
     
 }
