@@ -436,6 +436,10 @@ nav .logo{
     .table-container{
         padding-top: 10%;
     }
+    .nav-links ul li a{
+        font-size:10px;
+     }
+     
     
 }
 
@@ -453,7 +457,7 @@ nav .logo{
     }
     
     .nav-links ul li a{
-        font-size: 10px;
+        font-size: 9px;
      }
      .pt-5{
          padding-top: 0;
@@ -471,7 +475,7 @@ nav .logo{
         width: 150px;
     }
     .nav-links ul li a{
-       font-size: 12px;
+       font-size: 9px;
     }
 
     .chsrity-galla{
@@ -494,7 +498,7 @@ nav .logo{
         width: 150px;
     }
     .nav-links ul li a{
-       font-size: 10px;
+       font-size: 8px;
     }
     .sajeev-bai img{
         width: 700px;
@@ -516,13 +520,21 @@ nav .logo{
         width: 150px;
     }
     .nav-links ul li a{
-       font-size: 14px;
+       font-size: 9px;
     }
     .social-link-container img{
         width: 90%;
     }
     .table-container{
         padding-top: 15%;
+    }
+    .dropdown-menu{
+        background: none;
+        border: none;
+    }
+    .moe_option{
+        padding-left: 0;
+        padding-right: 0;
     }
     
   }
@@ -570,7 +582,7 @@ nav .logo{
     }
     .nav-links ul li a{
         color: white;
-        font-size: 14px;
+        font-size: 11px;
     }
 /* nav sectin  end */
 
